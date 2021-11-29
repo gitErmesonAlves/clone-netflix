@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+
+    <title>Netflix Brasil - assistir a séries</title>
+
+    <!-- Bootstrap Imports -->
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- SASS Compiler CSS -->
+    <link rel="stylesheet" href="./src/scss/style_main.css" />
+    <link rel="stylesheet" href="./src/scss/breakpoints.css">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="header">
+      <header>
+        <!-- Nav -->
+        <div class="container">
+          <div
+            class="
+              d-flex
+              flex-wrap
+              align-items-center
+              justify-content-center justify-content-md-between
+              py-3
+              mb-4
+            "
+          >
+            <a
+              href="/"
+              class="
+                d-flex
+                align-items-center
+                col-md-4
+                mb-2 mb-md-0
+                text-dark text-decoration-none
+              "
+            >
+              <img src="./assets/img/netflix_logo.png" width="100px;" height="30px;" alt="logo">
+            </a>
+
+            <div class="col-md-4 text-end">
+              <button type="button" class="btn btn-outline-danger">
+                Portguês
+              </button>
+
+              <button type="button" class="btn btn-danger">Entrar</button>
+            </div>
+          </d>
+        </div>
+        <!-- Nav -->
+
+        <div class="p-5 mb-4 rounded-3">
+          <div class="container-fluid py-5 text-center text-white">
+            <h1 class="display-5 fw-bold">Filmes, séries e muito mais. <br />Sem limites.</h1>
+            <h3 class="fs-4">Assista onde quiser. Cancele quando quiser.</h3>
+            <p>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.
+            </p>
+
+            <div class="input-group mb-5">
+              <input type="email" class="form-control input_email" placeholder="Email">
+              <button class="btn btn-danger btn_go" type="button" id="button-addon2">Vamos lá</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </header>
+
+    </div>
+
+
+    <main>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="h-100 p-5 text-white rounded-3">
+              <h1>Aproveite na TV.</h1>
+              <p>
+                Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="p-5 rounded-3">
+              <img src="./assets/img/tv.png" class="img_tv" alt="tv">
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </main>
+
+
+    <main>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="p-5 rounded-3">
+              <img src="./assets/img/mobile.jpg" class="img_tv" alt="tv">
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="h-100 p-5 text-white rounded-3">
+              <h1>Baixe séries para assistir offline.</h1>
+              <p>
+                Salve seus títulos favoritos e sempre tenha algo para assistir.
+              </p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </main>
+
+
+    <main>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="h-100 p-5 text-white rounded-3">
+              <h1>Assista quando quiser.</h1>
+              <p>
+                Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="p-5 rounded-3">
+              <img src="./assets/img/device-pile.png" class="img_tv" alt="tv">
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </main>
+
+
+    <main>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="p-5 rounded-3">
+              <img src="./assets/img/infantil.png" class="img_tv" alt="tv">
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="h-100 p-5 text-white rounded-3">
+              <h1>Crie perfis para crianças.</h1>
+              <p>
+                Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.
+              </p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </main>
+
+    <article>
+      <div class="container">
+        <div class="align-items-center text-center m-3 p-2">
+          <h1 class="text-white">Perguntas frequentes</h1>
+        </div>
+
+        <!--  -->
+        <div class="collapse" id="netflix">
+          <div class="bg-dark p-4">
+            <span class="text-muted">
+              A Netflix é um serviço de transmissão online que oferece uma ampla variedade de séries, filmes e documentários premiados em milhares de aparelhos conectados à internet.
+              Você pode assistir a quantos filmes e séries quiser, quando e onde quiser, sem comerciais – tudo por um preço mensal bem acessível. Aqui você sempre encontra novidades. A cada semana, adicionamos novas séries e filmes.
+            </span>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark mb-2">
+          <div class="container-fluid">
+            <p class="text-white">O que é a Netflix?</p>
+            <button type="button" 
+            class="btn"  
+            data-bs-toggle="collapse" 
+            data-bs-target="#netflix" 
+            aria-controls="netflix" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+
+            <img src="./assets/svg/plus-lg.svg" alt="">
+
+          </button>
+
+          </div>
+        </nav>
+
+        <!--  -->
+        <div class="collapse" id="custo">
+          <div class="bg-dark p-4">
+            <span class="text-muted">
+              Assista à Netflix no seu celular, tablet, Smart TV, notebook ou aparelho de streaming por uma taxa mensal única. Os planos variam de R$25,90 a R$55,90 por mês. Sem contrato nem taxas extras.
+            </span>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark mb-2">
+          <div class="container-fluid">
+            <p class="text-white">Quanto custa a Netflix?</p>
+            <button type="button" 
+            class="btn"  
+            data-bs-toggle="collapse" 
+            data-bs-target="#custo" 
+            aria-controls="custo" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+
+            <img src="./assets/svg/plus-lg.svg" alt="">
+
+          </button>
+
+          </div>
+        </nav>
+
+        <div class="collapse" id="assistir">
+          <div class="bg-dark p-4">
+            <span class="text-muted">
+              Assista onde quiser, quando quiser. Faça login com sua conta Netflix em netflix.com para começar a assistir no computador ou em qualquer aparelho conectado à Internet compatível com o aplicativo Netflix, como Smart TVs, smartphones, tablets, aparelhos de streaming e videogames.
+              Você também pode baixar a sua série favorita com o aplicativo Netflix para iOS, Android ou Windows 10. Use downloads para levar a Netflix para onde quiser sem precisar de conexão com a Internet. Leve a Netflix com você para qualquer lugar.            </span>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark mb-2">
+          <div class="container-fluid">
+            <p class="text-white">Onde posso assistir?</p>
+            <button type="button" 
+            class="btn"  
+            data-bs-toggle="collapse" 
+            data-bs-target="#assistir" 
+            aria-controls="assistir" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+
+            <img src="./assets/svg/plus-lg.svg" alt="">
+
+          </button>
+
+          </div>
+        </nav>
+
+        <div class="collapse" id="cancelar">
+          <div class="bg-dark p-4">
+            <span class="text-muted">
+              A Netflix é flexível. Não há contratos nem compromissos. Você pode cancelar a sua conta na internet com apenas dois cliques. Não há taxa de cancelamento – você pode começar ou encerrar a sua assinatura a qualquer momento.
+            </span>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark mb-2">
+          <div class="container-fluid">
+            <p class="text-white">Como faço para cancelar?</p>
+            <button type="button" 
+            class="btn"  
+            data-bs-toggle="collapse" 
+            data-bs-target="#cancelar" 
+            aria-controls="cancelar" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+
+            <img src="./assets/svg/plus-lg.svg" alt="">
+
+          </button>
+
+          </div>
+        </nav>
+
+
+        <div class="collapse" id="posso">
+          <div class="bg-dark p-4">
+            <span class="text-muted">
+              A Netflix tem um grande catálogo de filmes, documentários, séries, originais Netflix premiados e muito mais. Assista o quanto quiser, quando quiser.            </span>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark mb-2">
+          <div class="container-fluid">
+            <p class="text-white">O que eu posso assistir na Netflix?</p>
+            <button type="button" 
+            class="btn"  
+            data-bs-toggle="collapse" 
+            data-bs-target="#posso" 
+            aria-controls="posso" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+
+            <img src="./assets/svg/plus-lg.svg" alt="">
+
+          </button>
+
+          </div>
+        </nav>
+
+        <div class="collapse" id="crianças">
+          <div class="bg-dark p-4">
+            <span class="text-muted">
+              A experiência infantil da Netflix faz parte da sua assinatura para que as crianças se divirtam em seu próprio espaço com séries e filmes familiares sob a supervisão dos pais.
+
+              O recurso de controle dos pais, incluso nos perfis para crianças e protegido por PIN, permite restringir a classificação etária do conteúdo que as crianças podem ver e bloquear títulos específicos que você não quer que elas assistam.          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark mb-2">
+          <div class="container-fluid">
+            <p class="text-white">A Netflix é adequada para crianças?</p>
+            <button type="button" 
+            class="btn"  
+            data-bs-toggle="collapse" 
+            data-bs-target="#crianças" 
+            aria-controls="crianças" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+
+            <img src="./assets/svg/plus-lg.svg" alt="">
+
+          </button>
+
+          </div>
+        </nav>
+
+        <div class="text-center m-3">
+          <h6 class="text-white">Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="input-group mb-5">
+                  <input type="email" class="form-control input_email" placeholder="Email">
+                  <button class="btn btn-danger btn_go" type="button" id="button-addon2">Vamos lá</button>
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+        </div>
+    </article>
+
+    <footer class="p-2">
+      <div class="container">
+        <footer class="row py-3 my-3">
+          <h6>Dúvidas? Ligue 0800-761-4631</h6>
+          <div class="col-md-4">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Perguntas frequentes</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Imprensa</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Resgatar cartão pré-pago</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Termos de uso</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Informações corporativas</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Avisos legais</a></li>
+            </ul>
+          </div>
+      
+          <div class="col-md-4">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Centro de ajuda</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Relações com investidores</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Comprar cartão pré-pago</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacidade</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Entre em contato</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Só na Netflix</a></li>
+            </ul>
+          </div>
+      
+          <div class="col-md-4">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Conta</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Carreiras</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Formas de assistir</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Preferências de cookies</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Teste de velocidade</a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </footer>
+  </body>
+</html>

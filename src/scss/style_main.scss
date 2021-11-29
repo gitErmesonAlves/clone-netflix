@@ -1,0 +1,64 @@
+.header {
+  header {
+    background: url("/assets/img/netflix_wallpaper.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    border-bottom: 8px solid #686868;
+
+    .input_email {
+      height: 60px !important;
+    }
+    .btn_go {
+      width: 100px !important;
+    }
+  }
+}
+
+main {
+  background: #000000;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 8px solid #686868;
+
+  .img_tv
+  {
+      width: 550px !important;
+  }
+}
+
+article
+{
+    background: #000000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    border-bottom: 8px solid #686868;
+
+    .collapse
+    {
+        justify-content: right;
+    }
+
+    .navbar
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.input_email 
+{
+    height: 60px !important;
+}
+.btn_go 
+{
+    width: 100px !important;
+}
+
+footer
+{
+    background: #000000;
+}

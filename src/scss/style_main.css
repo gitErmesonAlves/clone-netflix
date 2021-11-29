@@ -1,0 +1,76 @@
+.header header {
+  background: url("/assets/img/netflix_wallpaper.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  border-bottom: 8px solid #686868;
+}
+
+.header header .input_email {
+  height: 60px !important;
+}
+
+.header header .btn_go {
+  width: 100px !important;
+}
+
+main {
+  background: #000000;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 8px solid #686868;
+}
+
+main .img_tv {
+  width: 550px !important;
+}
+
+article {
+  background: #000000;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 8px solid #686868;
+}
+
+article .collapse {
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+article .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.input_email {
+  height: 60px !important;
+}
+
+.btn_go {
+  width: 100px !important;
+}
+
+footer {
+  background: #000000;
+}
+/*# sourceMappingURL=style_main.css.map */
